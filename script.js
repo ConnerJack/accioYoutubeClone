@@ -49,5 +49,5 @@ const makeVideoCard = (data) => {
 
 const moveToDetails= (videoId)=>{
     localStorage.setItem("videoId",videoId)
-window.open("/videoDetails.html")
+window.open("videoDetails.html")
 }
