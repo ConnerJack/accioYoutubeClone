@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+hr {
+    color: #303030;
+    background-color: #303030;
+}
+
+
+.nav-container {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #303030 ;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+
+.mainContainer {
+    display: flex;
+}
+
+.sideBar {
+    background-color: #212121;
+    color: white;
+    text-align: left;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #303030 ;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #303030 ;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #303030 ;
+}
+
+.tiles {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+
+.icon {
+    margin: 20px ;
+}
+.iconDesciption{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    height: 35px;
+    margin-left: 10px ;
+    background-color: black;
+    border: none;
+    padding:0px 10px;
+}
+
+.searchicon {
+    background-color: #303030;
+    border: none;
+    padding: 4px 10px;
+}
+
+
+
+
+
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+    padding: 15px  30px;
+}
+
+.video{
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.title{
+    overflow: hidden;
+    color: white;
+}
+
+.channel-name{
+    font-size: 14px;
+    margin: 2px 0;
+    color: white;
+}
+
+
+
+.container{
+    padding: 5px 50px;
+    color: white;
+}
+.channelinfo {
+    display: flex;
+    align-items: center;
+}
+
+
+.comment {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.commentCont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+
+.likestats{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.commentinfo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.commentinfo p {
+    margin: 0;
+
+}
+
+.authorname {
+    font-size: 10px;
+}
+
+.channelinfo p {
+margin:  0;
+}
+
+.channelinfo{
+    margin-bottom: 20px;
+}
+
+.channelinfop {
+    font-size: 15px;
+}
+
+.co {
+    margin-top: 10px;
+}
